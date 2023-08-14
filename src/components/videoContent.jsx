@@ -8,13 +8,13 @@ const VideoContent = ({title, url}) => {
     width='full' pl={{md:'150px',sm: '130px'}}
     mb='px'
     >
-        {/* <Box as="iframe" 
+        <Box as="iframe" 
         id="ytplayer" type="text/html" width="100%" height="100%"
         src={url}
         style={{
           marginBottom:'15px'
         }}
-        /> */}
+        />
 
         <Text as={'b'} fontSize='xl' pt='15px'>
           {title}
