@@ -27,7 +27,7 @@ const CommentSection = () => {
 
     userComment && postData(url, {
       comment: userComment,
-      username: user
+      username: localStorage.getItem('nama')
     },
     createData
     )
