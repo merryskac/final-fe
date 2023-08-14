@@ -25,9 +25,9 @@ export default function Register() {
     message: null
   })
 
-  if(localStorage.getItem('access_token')){
-    window.location.href = '/content'
-  }
+  // if(localStorage.getItem('access_token')){
+  //   window.location.href = '/content'
+  // }
 
   const handleSubmit = (e) =>{
     e.preventDefault()
