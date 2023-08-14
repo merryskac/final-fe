@@ -14,9 +14,10 @@ const Logout = () => {
     }catch(err){
       console.log(err.message)
     }
-    
+    window.localStorage.clear()
+    window.location.href = '/'  
   },[])
-  localStorage.clear()
+  
   return ( <div>
   ...logout
   </div> );
