@@ -7,6 +7,7 @@ import SideBar from "../components/sideBar";
 import VideoContent from "../components/videoContent";
 import { useParams } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
+import CommentSection from "./commentSection";
 
 const Detail = () => {
   const id = useParams('id').id
@@ -26,6 +27,7 @@ const Detail = () => {
       {data && <Flex as='main' mt='20' mr={'10px'} ml='10px' mb={{sm:'10px',base:'300px'}}>
         {filter && <VideoContent url={filter[0].url} title={filter[0].title}/>}
       </Flex>}
+      <CommentSection/>
     </Box>
   </> );
 }
