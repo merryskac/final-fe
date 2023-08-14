@@ -12,7 +12,7 @@ import CommentSection from "./commentSection";
 const Detail = () => {
   const id = useParams('id').id
   
-  const {response:data, pending, error} = useFetch('https://final-fe-git-main-wheytosharepalu-gmailcom.vercel.app/play/thumbnails');
+  const {response:data, pending, error} = useFetch('https://final-term-git-main-wheytosharepalu-gmailcom.vercel.app/play/thumbnails');
 
   const filter = data && data.thumbnails.filter(data=>{
     console.log(data)
@@ -22,7 +22,6 @@ const Detail = () => {
   return ( <>
   <Navbar/>
     <Box >
-    {console.log(data)}
       <SideBar/>
       {pending && <p>{pending}</p>}
       {error && <p>{error}</p>}
