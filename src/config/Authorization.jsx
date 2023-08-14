@@ -12,7 +12,7 @@ const Authorization= ({children}) => {
   //   window.location.href='/login'
   //   return
   // }
-  if(!localStorage.getItem('name')){
+  if(!localStorage.getItem('nama')){
     window.location.href = '/login'
   }
   // setUser(localStorage.getItem('name'))
