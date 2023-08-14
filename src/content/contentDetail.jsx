@@ -15,7 +15,6 @@ const Detail = () => {
   const {response:data, pending, error} = useFetch('https://final-term-git-main-wheytosharepalu-gmailcom.vercel.app/play/thumbnails');
 
   const filter = data && data.thumbnails.filter(data=>{
-    console.log(data)
     return data._id===id
   })
 
