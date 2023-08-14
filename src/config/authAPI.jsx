@@ -5,6 +5,7 @@ const cookies = new Cookies()
 export const cekToken = () =>{
   try{
   const cek = fetch('https://final-term-git-main-wheytosharepalu-gmailcom.vercel.app/play/cektoken',{
+    
     method:'POST',
     credentials:'include',
     headers:{
