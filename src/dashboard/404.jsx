@@ -20,10 +20,9 @@ export default function NotFound() {
           textAlign={'center'}
           spacing={{ base: 8, md: 14 }}
           py={{ base: 20, md: 36 }}>
-          <Text color={'gray.500'} >
-            
+          
             <Text as={'b'} color={'green.400'} fontSize='xl'>Your page is Not Found</Text>
-          </Text>
+          
           <Stack
             direction={'column'}
             spacing={3}
