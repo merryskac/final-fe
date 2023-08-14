@@ -22,12 +22,13 @@ const Detail = () => {
   return ( <>
   <Navbar/>
     <Box >
+    {console.log(data)}
       <SideBar/>
       {pending && <p>{pending}</p>}
       {error && <p>{error}</p>}
       {data && <Flex as='main' mt='20' mr={'10px'} ml='10px' mb={{sm:'10px',base:'300px'}}>
 
-      {/* <VideoContent url={filter[0].url} title={filter[0].title}/> */}
+      <VideoContent url={filter[0].url} title={filter[0].title}/>
 
       </Flex>}
       {/* <CommentSection/> */}
