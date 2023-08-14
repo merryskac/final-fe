@@ -114,7 +114,7 @@ export default function Login() {
                 
               </Button>
 
-              <Text>Don't have account? <Link href='/register' fontWeight={'bold'}  color='green.400'>Register</Link></Text> 
+              <Text>Don't have accjjount? <Link href='/register' fontWeight={'bold'}  color='green.400'>Register</Link></Text> 
               
             </Stack>
             

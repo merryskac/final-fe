@@ -9,7 +9,7 @@ import { useEffect } from "react";
 
 
 const Content = () => {
-  const {response, pending, error} = useFetch('https://final-term-ashen.vercel.app/play/thumbnails')
+  const {response, pending, error} = useFetch('https://final-term-git-main-wheytosharepalu-gmailcom.vercel.app/play/thumbnails')
   const [search, setSearch] = useState(null)
   const [searchData, setSearchData] = useState(null)
   const [result, setResult] = useState(null)
