@@ -6,8 +6,10 @@ export const usePost = ()=>{
   const postData = (url, dataBody, action)=>{
     
       fetch(url ,{
+        credentials:'include',
         method:'POST',
         headers:{
+          
           Authorization: 'Bearer '+localStorage.getItem('access_token'),
           'Content-type':'application/json'
         },
