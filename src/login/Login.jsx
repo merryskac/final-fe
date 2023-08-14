@@ -55,7 +55,7 @@ export default function Login() {
       window.localStorage.setItem('access_token', data.access_token)
       console.log(data)
       console.log(localStorage.getItem('access_token'))
-      
+      setUser(data.username)
       const cookie = new Cookies()
       cookie.set('refreshToken',data.refreshToken,{
         path:'/'

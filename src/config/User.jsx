@@ -15,7 +15,7 @@ const User = ({children}) => {
   useEffect(()=>{
     
     isLogged && setIsLogged(true)
-    setUser('user')
+    
     // && cekToken().then(data=>{
     //   console.log(data)
       // if(data.accessToken){
