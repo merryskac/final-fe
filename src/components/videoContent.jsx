@@ -8,13 +8,6 @@ const VideoContent = ({title, url}) => {
     width='full' pl={{md:'150px',sm: '130px'}}
     mb='px'
     >
-      {/* <video controls style={{
-        margin:'auto',
-        width:'100%',
-        height:'100%'
-      }}>
-      </video> */}
-
         <Box as="iframe" 
         id="ytplayer" type="text/html" width="100%" height="100%"
         src={url}
