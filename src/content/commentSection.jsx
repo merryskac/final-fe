@@ -88,7 +88,7 @@ const CommentSection = () => {
         onSubmit={(e)=>{handleSubmit(e)}}
         >
           <Textarea autoComplete="off" name="comment" type="text" 
-          placeholder={"comment as "+{localStorage.get('nama')}} 
+          placeholder={`comment as ${localStorage.getItem('nama')}`} 
           value={userComment} 
           style={{
             padding: '5px',
