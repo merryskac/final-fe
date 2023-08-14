@@ -1,6 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 import { checkPropTypes } from "prop-types";
-import CommentSection from "../content/commentSection";
+import CommentSection from "./commentSection";
 
 const VideoContent = ({title, url}) => {
   return ( 

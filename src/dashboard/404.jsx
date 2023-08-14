@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react'
 import Footer from '../components/footer'
 
-export default function Dashboard() {
+export default function NotFound() {
   return (
     <>
       <Container maxW={'3xl'}>
@@ -27,15 +27,15 @@ export default function Dashboard() {
 
             Welcome to <br />
             <Text as={'span'} color={'green.400'}>
-              Tokopedia Play
+              404
             </Text>
 
           </Heading>
 
 
           <Text color={'gray.500'} >
-            Get discount up to <Text color={'green.400'} as={'b'} fontSize='xl' >70%</Text> from seller&apos;s live content only at
-            <Text as={'b'} color={'green.400'} fontSize='xl'> Tokopedia Play</Text>
+            
+            <Text as={'b'} color={'green.400'} fontSize='xl'>Your page is Not Found</Text>
           </Text>
           <Stack
             direction={'column'}
@@ -43,7 +43,7 @@ export default function Dashboard() {
             align={'center'}
             alignSelf={'center'}
             position={'relative'}>
-              <a href="/login">
+              <a href="/content">
             <Button
               colorScheme={'green'}
               bg={'green.400'}
@@ -53,7 +53,7 @@ export default function Dashboard() {
                 bg: 'green.500',
               }}
               >
-              Get Started
+              Go Back
             </Button>
             </a>
             

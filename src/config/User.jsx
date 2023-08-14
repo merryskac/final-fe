@@ -16,23 +16,6 @@ const User = ({children}) => {
     
     isLogged && setIsLogged(true)
     
-    // && cekToken().then(data=>{
-    //   console.log(data)
-      // if(data.accessToken){
-      //   setUser(data.username)
-      //   if(data.accessToken !== localStorage.getItem('access_token')){
-      //     localStorage.setItem('access_token', data.accessToken)
-      //   }
-      // setIsLogged(true)
-      // }
-      // else{
-      //   // window.localStorage.clear()
-      //   setIsLogged(false)
-      // }
-    // })
-    // .catch(err=>{
-    //   console.log(err.message)
-    // })
   },[])
   
   return ( 

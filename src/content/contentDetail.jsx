@@ -4,10 +4,9 @@ import {
   Flex 
 } from "@chakra-ui/react";
 import SideBar from "../components/sideBar";
-import VideoContent from "../components/videoContent";
+import VideoContent from "./videoContent";
 import { useParams } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
-import CommentSection from "./commentSection";
 
 const Detail = () => {
   const id = useParams('id').id
@@ -29,7 +28,7 @@ const Detail = () => {
       <VideoContent url={filter[0].url} title={filter[0].title}/>
 
       </Flex>}
-      {/* <CommentSection/> */}
+    
     </Box>
   </> );
 }

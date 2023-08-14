@@ -1,7 +1,7 @@
 import { Box, Flex, Input, SimpleGrid, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import Navbar from "../components/navbar";
-import Footer from "../dashboard/footer";
+import Footer from "../components/footer";
 import { useFetch } from "../hooks/useFetch";
 import ContentCard from "./contentCard";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -14,7 +14,6 @@ const Content = () => {
   const [searchData, setSearchData] = useState(null)
   const [result, setResult] = useState(null)
 
-  console.log(localStorage.getItem('access_token'))
 
   useEffect(()=>{
     const responses = search && response && response.thumbnails.filter(data=>data.title.toLowerCase().indexOf(search)!==-1)
