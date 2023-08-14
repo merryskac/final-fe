@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { UserContext } from "../config/User";
-import Footer from "../components/footer";
+import Footer from "../dashboard/footer";
 import { useFetch } from "../hooks/useFetch";
 import { usePost } from "../hooks/usePost";
 

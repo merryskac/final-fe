@@ -1,7 +1,7 @@
 import { Box, Flex, Input, SimpleGrid, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Footer from "../dashboard/footer";
 import { useFetch } from "../hooks/useFetch";
 import ContentCard from "./contentCard";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -13,6 +13,7 @@ const Content = () => {
   const [search, setSearch] = useState(null)
   const [searchData, setSearchData] = useState(null)
   const [result, setResult] = useState(null)
+
 
 
   useEffect(()=>{

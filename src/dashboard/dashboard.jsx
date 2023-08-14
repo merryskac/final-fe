@@ -7,7 +7,7 @@ import {
   Button,
   Stack,
 } from '@chakra-ui/react'
-import Footer from '../components/footer'
+import Footer from './footer'
 
 export default function Dashboard() {
   return (
