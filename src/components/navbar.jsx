@@ -75,7 +75,7 @@ export default function Navbar() {
               </MenuButton>
               <MenuList>
                 <MenuItem >
-                  <Text textAlign={'center'}><Text as='b'>Hello, </Text>{user}</Text>
+                  <Text textAlign={'center'}><Text as='b'>Hello, </Text>{localStorage.getItem('nama')}</Text>
                 </MenuItem>
                 <MenuDivider />
 
