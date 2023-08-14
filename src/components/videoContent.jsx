@@ -14,7 +14,7 @@ const VideoContent = ({title, url}) => {
         style={{
           marginBottom:'15px'
         }}
-        ></Box>
+        />
 
         <Text as={'b'} fontSize='xl' pt='15px'>
           {title}
