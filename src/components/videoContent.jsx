@@ -26,7 +26,7 @@ const VideoContent = ({title, url}) => {
         <Text as={'b'} fontSize='xl' pt='15px'>
           {title}
         </Text>
-        {/* <CommentSection/> */}
+        <CommentSection/>
     </Box>
 
    );
