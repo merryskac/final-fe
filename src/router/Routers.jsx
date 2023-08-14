@@ -14,8 +14,8 @@ const Routers = () => {
         <Route path="/" element={<Dashboard/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
-        <Route path="/content" element={<Authorization><Content/></Authorization>} />
-        <Route path="/content/:id" element={<Authorization><Detail/></Authorization>} />
+        <Route path="/content" element={<Content/>} />
+        <Route path="/content/:id" element={<Detail/>} />
         <Route path='/logout' element={<Logout/>} />
       </Routes>
     </BrowserRouter>
