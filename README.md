@@ -22,7 +22,7 @@ e. User just need input name and comment when submit comment in form✅
 f. User can see their comment in list comment section after success submit comment✅
     (note: since I add login system, user don't have to input username manually)
 
-** Additional Features
+### Additional Features
 a. Login to account
 b. Register
 c. Logout
