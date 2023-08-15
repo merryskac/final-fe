@@ -23,9 +23,9 @@ f. User can see their comment in list comment section after success submit comme
     (note: since I add login system, user don't have to input username manually)
 
 ### Additional Features
-a. Login to account
-b. Register
-c. Logout
+  a. Login to account
+  b. Register
+  c. Logout
 
 * Bonus part
 a. add user profile picture and username on the top right corner of the page *(only add the username, not the picture)
