@@ -9,6 +9,9 @@ import { useParams } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
 
 const Detail = () => {
+  if(!localStorage.getItem('nama')||localStorage.getItem('nama')===undefined){
+    window.location.href = '/login'
+  }
   const id = useParams('id').id
   
   const {response:data, pending, error} = useFetch('https://final-term-git-main-wheytosharepalu-gmailcom.vercel.app/play/thumbnails');

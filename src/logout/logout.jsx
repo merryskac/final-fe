@@ -4,6 +4,9 @@ import { logout } from "./logoutAPI"
 const Logout = () => {
   
   useEffect(()=>{
+    if(!localStorage.getItem('nama')||localStorage.getItem('nama')===undefined){
+      window.location.href = '/login'
+    }
     try{
       logout().then(data=>{
         if(data.message == "logout success"){

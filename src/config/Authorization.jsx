@@ -12,9 +12,10 @@ const Authorization= ({children}) => {
   //   window.location.href='/login'
   //   return
   // }
-  if(!localStorage.getItem('nama')){
+  if(!localStorage.getItem('nama') || localStorage.getItem('nama') === undefined){
     window.location.href = '/login'
   }
+
   // setUser(localStorage.getItem('name'))
   return (<Fragment>
     {children}
