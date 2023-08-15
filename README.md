@@ -4,6 +4,8 @@ Final project for Generasi Gigih 3.0
 by:
 Merryska Christy Mait (GG3FSUP0124)
 
+* Backend part: https://github.com/merryskac/finalTerm
+
 * Hosted url: https://final-fe-git-main-wheytosharepalu-gmailcom.vercel.app/
 
 * Description
@@ -20,12 +22,12 @@ e. User just need input name and comment when submit comment in form✅
 f. User can see their comment in list comment section after success submit comment✅
     (note: since I add login system, user don't have to input username manually)
 
-**Additional Features
+** Additional Features
 a. Login to account
 b. Register
 c. Logout
 
-*Bonus part
+* Bonus part
 a. add user profile picture and username on the top right corner of the page *(only add the username, not the picture)
 b. Search feature (user able to search by video title) ✅
 
@@ -41,7 +43,7 @@ c. React Hooks: create custom hooks at least two✅
 d. Use React Router as router navigation between page✅
     (available in src->router->Routers)
 
-*Database schema
+* Database schema
 * Channel Schema
 ```
   {
