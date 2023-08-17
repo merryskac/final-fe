@@ -131,7 +131,7 @@ export default function Register() {
                 Sign up
               </Button>
 
-              <Text>Don't have account? <Link href='/register' fontWeight={'bold'}  color='green.400'>Register</Link></Text> 
+              <Text>Have an account? <Link href='/login' fontWeight={'bold'}  color='green.400'>Login</Link></Text> 
               
               </Stack>
             
