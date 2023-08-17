@@ -29,9 +29,9 @@ export default function Login() {
 
   useEffect(()=>{
 
-    if(localStorage.getItem('nama')!==undefined){
-      window.location.href = '/content'
-    }
+    // if(localStorage.getItem('nama')!==undefined){
+    //   window.location.href = '/content'
+    // }
   })
 
   // if(localStorage.getItem('access_token') && user){
