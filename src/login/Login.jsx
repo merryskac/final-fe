@@ -13,7 +13,7 @@ import {
   useColorModeValue,
   Link,
 } from '@chakra-ui/react'
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { useState } from 'react'
 import { UserContext } from '../config/User'
 import { login } from './loginAPI'
@@ -27,9 +27,12 @@ export default function Login() {
   })
   const {user, setUser} = useContext(UserContext)
 
-  if(localStorage.getItem('nama')!==undefined){
-    window.location.href = '/content'
-  }
+  useEffect(()=>{
+
+    if(localStorage.getItem('nama')!==undefined){
+      window.location.href = '/content'
+    }
+  })
 
   // if(localStorage.getItem('access_token') && user){
   //   window.location.href = '/content'

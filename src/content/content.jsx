@@ -17,7 +17,7 @@ const Content = () => {
 
 
   useEffect(()=>{
-    if(localStorage.getItem('nama')===undefined){
+    if(!localStorage.getItem('nama')||localStorage.getItem('nama')===undefined){
       window.location.href = '/login'
     }
     const responses = search && response && response.thumbnails.filter(data=>data.title.toLowerCase().indexOf(search)!==-1)
