@@ -27,7 +27,7 @@ export default function Login() {
   })
   const {user, setUser} = useContext(UserContext)
 
-    if(localStorage.getItem('nama')!==undefined){
+    if(localStorage.getItem('nama')){
       window.location.href = '/content'
     }
 
