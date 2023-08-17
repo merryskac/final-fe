@@ -27,12 +27,10 @@ export default function Login() {
   })
   const {user, setUser} = useContext(UserContext)
 
-  useEffect(()=>{
+    if(localStorage.getItem('nama')!==undefined){
+      window.location.href = '/content'
+    }
 
-    // if(localStorage.getItem('nama')!==undefined){
-    //   window.location.href = '/content'
-    // }
-  })
 
   // if(localStorage.getItem('access_token') && user){
   //   window.location.href = '/content'
